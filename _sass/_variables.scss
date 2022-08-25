@@ -53,9 +53,10 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 $light-purple               : #f0ddff;
+$lighter-purple             : #f0e7ff;
 
-$body-color                 : $light-purple;
-$background-color           : $light-purple;
+$body-color                 : $lighter-purple;
+$background-color           : $lighter-purple;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
