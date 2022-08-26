@@ -15,12 +15,12 @@
   height: auto;
   /* sticky footer fix end */
   margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
+  color: mix(#fff, $gray, 25%); /* Changes the color of the TEXT of the footer */
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $light-purple;
+  background-color: $light-purple; /* Changes the color of the BODY of the footer */
   border-top: 1px solid $light-gray;
 
   footer {
