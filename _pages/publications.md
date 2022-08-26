@@ -12,6 +12,7 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  <p> #{{ forloop.counter }}. </p>
+
+  <p> #<td>{{ forloop.counter }}</td>. </p>
   {% include archive-single.html %}
 {% endfor %}
