@@ -4,6 +4,7 @@
 
 .masthead {
   position: relative;
+  background: $header-color; \* Sets the color of the top div excluding the navigation bar, which is set in _sass/_navigation.scss *\
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
