@@ -13,6 +13,8 @@ author_profile: true
 
 <ol>
 {% for post in site.publications reversed %}
-  <li> {% include archive-single.html %}</li>
+  {% if post.year == 2018 %}
+    <li> {% include archive-single.html %}</li>
+  {% endif %}
 {% endfor %}
 </ol>
