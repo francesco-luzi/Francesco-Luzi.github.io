@@ -55,7 +55,8 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 $light-purple               : #f0ddff;
 $lighter-purple             : #f0e7ff;
 
-$body-color                 : $lighter-purple;
+/* The following two change the color of the main body of the site */
+$body-color                 : $lighter-purple; 
 $background-color           : $lighter-purple;
 $code-background-color      : $light-purple;
 $code-background-color-dark : $light-purple;
