@@ -12,7 +12,6 @@ author_profile: true
 {% include base_path %}
 
 
-
 <ol>
 {% for post in site.publications reversed %}
   {% if post.year == 2020 %}
