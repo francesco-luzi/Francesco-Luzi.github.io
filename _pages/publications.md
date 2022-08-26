@@ -11,10 +11,18 @@ author_profile: true
 
 {% include base_path %}
 
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.year == 2018 %}
-    <li> {% include archive-single.html %}</li>
-  {% endif %}
-{% endfor %}
-</ol>
+
+
+{% with '2018 2020' as yearlist %}
+  {% for year in list.split %}
+    <ol>
+    {% for post in site.publications reversed %}
+      {% if post.year == yearlist %}
+        <li> {% include archive-single.html %}</li>
+      {% endif %}
+    {% endfor %}
+    </ol>
+  {% endfor %}
+{% endwith %}
+
+
