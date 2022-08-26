@@ -10,11 +10,11 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  background: $header-color; /* Sets the color of the top div excluding the navigation bar, which is set in _sass/_navigation.scss */
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    background: $header-color; /* Sets the color of the top div excluding the navigation bar, which is set in _sass/_navigation.scss */
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
