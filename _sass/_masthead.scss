@@ -30,7 +30,7 @@
     }
   }
    
-  background: $header-color; /* Sets the color of the top div excluding the navigation bar, which is set in _sass/_navigation.scss */
+  background: $header-color; /* Sets the color of the top div. This cannot be placed before &__inner-wrap or it won't work*/
 }
 
 .masthead__menu {
