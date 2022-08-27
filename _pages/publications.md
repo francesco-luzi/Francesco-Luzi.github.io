@@ -11,22 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-
 <ol>
 {% for post in site.publications reversed %}
-  {% if post.year == 2020 %}
     <li> {% include archive-single.html %}</li>
-  {% endif %}
 {% endfor %}
 </ol>
-
-
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.year == 2018 %}
-    <li> {% include archive-single.html %}</li>
-  {% endif %}
-{% endfor %}
-</ol>
-
-
