@@ -54,7 +54,7 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $light-purple               : #ccc4ff; /* #f0ddff;*/
-$lighter-purple             : mix(#fff, $light-purple, 20%); /* #f0e7ff; */
+$lighter-purple             : mix(#fff, $light-purple, 40%); /* #f0e7ff; */
 
 /* The following two change the color of the main body of the site */
 $body-color                 : $lighter-purple; 
@@ -66,7 +66,7 @@ $border-color               : $light-gray;
 $footer-color               : $light-purple; /* Changes the color of the BODY of the footer. Set in _sass/_footer.scss */
 $header-color               : $light-purple; /* Changes the color of the Body of the header / top navigation bar. Set in _sass/_navigation.scss */
 
-$primary-color              : $dark-gray; /*#7a8288;*/ /*This changes the "base" link color in the navbar*/
+$primary-color              : $darker-gray; /*#7a8288;*/ /*This changes the "base" link color in the navbar*/
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
